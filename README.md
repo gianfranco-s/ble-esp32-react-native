@@ -27,7 +27,7 @@ Place the contents of the repository somewhere on your system (manualy or with g
     ```
     npx react-native start
     ```  
-4. On another terminal, run the following command to launch the app on your connected android phone (make sure it has USB debugging enabled). Note that this step may trigger additional dependencies downloads from Android Studio.
+4. On another terminal, run the following command to launch the app on your connected android phone (make sure it has USB debugging enabled). Note that this step may trigger additional dependency downloads from Android Studio.
     ```
     npx react-native run-android
     ```
@@ -46,7 +46,7 @@ In a nutshell:
     ```
     cd android && ./gradlew assembleDebug
     ```
-4. The apk will be found in `app/build/outputs/apk/debug/app-debug.apk`
+4. The apk will be found in `./android/app/build/outputs/apk/debug/app-debug.apk`
 For additional details please refer to https://dev.to/nitish173/how-to-generate-a-debug-apk-in-react-native-1gdg
 
 
