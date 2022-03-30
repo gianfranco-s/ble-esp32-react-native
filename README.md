@@ -42,7 +42,11 @@ In a nutshell:
     ```
     npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
     ```
-
+3. Then run
+    ```
+    cd android && ./gradlew assembleDebug
+    ```
+4. The apk will be found in `app/build/outputs/apk/debug/app-debug.apk`
 For additional details please refer to https://dev.to/nitish173/how-to-generate-a-debug-apk-in-react-native-1gdg
 
 
