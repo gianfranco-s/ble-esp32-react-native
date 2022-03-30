@@ -7,15 +7,17 @@ Original project ran on Windows. I couldn't make it work on Ubuntu 20.04, so I c
 
 ## What do I need to run it?
 * NodeJS
-* JAVA SDK
+* Android Studio (download [here](https://developer.android.com/studio) or [install using snap](https://snapcraft.io/android-studio)). Open it a first time, to ensure all dependencies are installed.
+* JAVA SDK (I installed it with `sudo apt install openjdk-8-jdk`)
 * ReactNative
-* Visual Studio Code with PlatformIO
+* Visual Studio Code with PlatformIO (to flash the ESP32)
 
+For additional details, please refer to the [docs](https://reactnative.dev/docs/environment-setup).
 
 ## Installation
 Place the contents of the repository somewhere on your system (manualy or with git) and open the folder in VSCode
 
-1. Run the following command to install all needed libraries
+1. After installing the aforementioned softare, run the following command to install all needed libraries
     ```
     npm install
     ```
