@@ -27,11 +27,27 @@ Place the contents of the repository somewhere on your system (manualy or with g
     ```
     npx react-native start
     ```  
-4. On another terminal, run the following command to launch the app on your connected android phone (make sure it has debugging enabled)
+4. On another terminal, run the following command to launch the app on your connected android phone (make sure it has USB debugging enabled). Note that this step may trigger additional dependencies downloads from Android Studio.
     ```
     npx react-native run-android
     ```
 5. In a seperate VSCode Window open the "Arduino" folder and upload the Code to an ESP32 using PlatformIO
 
-## Are you HDSM?
+## How do I export the apk file?
+Why, that's a great question indeed...
+
+In a nutshell:
+1. Verify if the file `index.android.bundle` exists in directory `.android/app/src/main/assets/`. If not, create both.
+2. Run
+    ```
+    npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+    ```
+
+For additional details please refer to https://dev.to/nitish173/how-to-generate-a-debug-apk-in-react-native-1gdg
+
+
+
+
+
+# Are you HDSM?
 Just download the directory `UniquelyMadeESP32`, and ask me for the APK file.
