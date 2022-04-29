@@ -50,8 +50,3 @@ In a nutshell:
 For additional details please refer to https://dev.to/nitish173/how-to-generate-a-debug-apk-in-react-native-1gdg
 
 
-
-
-
-# Are you HDSM?
-Just download the directory `UniquelyMadeESP32`, and ask me for the APK file.
