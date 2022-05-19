@@ -31,7 +31,7 @@ Place the contents of the repository somewhere on your system (manualy or with g
     ```
     npx react-native run-android
     ```
-5. In a seperate VSCode Window open the "Arduino" folder and upload the Code to an ESP32 using PlatformIO
+5. In a separate VSCode Window open the "Arduino" folder and upload the Code to an ESP32 using PlatformIO
 
 ## How do I export the apk file?
 Why, that's a great question indeed...
