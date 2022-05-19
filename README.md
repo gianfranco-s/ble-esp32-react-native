@@ -17,7 +17,7 @@ For additional details, please refer to the [docs](https://reactnative.dev/docs/
 ## Installation
 Place the contents of the repository somewhere on your system (manualy or with git) and open the folder in VSCode
 
-1. After installing the aforementioned softare, run the following command to install all needed libraries
+1. After installing the aforementioned softare, cd into `Frontend` and run the following command to install all needed libraries
     ```
     npm install
     ```
